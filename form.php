@@ -1,4 +1,4 @@
-<?  ob_start();?>
+<?php ob_start(); ?>
 
 <div class="card-panel" style="max-width: 500px">
 	<h4 class="center-align">Contato</h4>
@@ -42,7 +42,7 @@
 
 <?php
 	$conteudo = ob_get_contents();
-	$titulo = "Contato";
 	ob_end_clean();
+	$titulo = "Contato";
 	include "layout.php";
 ?>
