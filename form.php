@@ -1,6 +1,6 @@
 <?  ob_start();?>
 
-<div class="card-panel" style="width:700px;">
+<div class="card-panel" style="max-width: 500px">
 	<h4 class="center-align">Contato</h4>
 	<form id="formContato" action="controller/contatoController.php" method="post">
 		<div class="form-group">
@@ -18,7 +18,7 @@
 	  </div>
 	  <button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
-
+	<br>
 	<div id="msg">
 
 	</div>

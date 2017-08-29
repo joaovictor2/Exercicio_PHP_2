@@ -12,7 +12,7 @@
 	$INSS = (8 / 100) * $salario;
 
 	//pegar hora
-	$hr = date("H:i:s");
+	$hr = date("H");
 
 	if($hr >= 6 && $hr < 12) {
 		$resp = "Bom dia";
@@ -20,11 +20,8 @@
 	if($hr >= 12 && $hr < 18) {
 		$resp = "Boa tarde";
 	}
-	if($hr >= 18 && $hr < "23:59:59") {
+	if(($hr >= 18 && $hr != 0) || ($hr >= 0 && $hr < 6)) {
 		$resp = "Boa noite";
-	}
-	if($hr >= 0 && $hr < 6) {
-		$resp = "Boa madrugada";
 	}
 
 	//mensagem
@@ -55,7 +52,7 @@
 	$enviado = $mail->send();
 
 	if($enviado == true) {
-		echo "Obrigado $nome por usar nosso formulário.";
+		echo "Obrigado Sr.(a) $nome por usar nosso formulário.";
 	}else {
 		echo "Houve um erro ao enviar: " . $mail->ErrorInfo;
 	}
