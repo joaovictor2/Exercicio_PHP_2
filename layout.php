@@ -7,9 +7,17 @@
 
   <!-- CSS  -->
   <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap-grid.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap-grid.min.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap-grid.min.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap-reboot.css" type="text/css" rel="stylesheet"/>
+  <link href="css/bootstrap-reboot.min.css" type="text/css" rel="stylesheet"/>
 
   <!--  Scripts-->
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
