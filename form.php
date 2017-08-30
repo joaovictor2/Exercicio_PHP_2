@@ -10,7 +10,6 @@
 	  <div class="form-group">
 	    <label for="exampleInputEmail1">Email</label>
 	    <input name="email" id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-	    <small id="emailHelp" class="form-text text-muted">Enviaremos o resultado para seu e-mail.</small>
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputPassword1">Salário</label>

@@ -25,7 +25,7 @@
 	}
 
 	//mensagem
-	$mensagem = "$resp. A aliquota do INSS corresponde a R$" . number_format($INSS, "2", ",", ".") . " do seu salário.";
+	$mensagem = "$resp Sr.(a) $nome. A aliquota do INSS corresponde a R$" . number_format($INSS, "2", ",", ".") . " do seu salário.";
 
 	$assunto = "Resultado INSS";
 
@@ -52,7 +52,7 @@
 	$enviado = $mail->send();
 
 	if($enviado == true) {
-		echo "Obrigado Sr.(a) $nome por usar nosso formulário.";
+		echo "Enviamos o resultado para seu e-mail. Obrigado por usar nosso formulário.";
 	}else {
 		echo "Houve um erro ao enviar: " . $mail->ErrorInfo;
 	}
