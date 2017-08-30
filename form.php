@@ -18,9 +18,9 @@
 	  <button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 	<br>
-	<div id="msg">
+</div>
+<div id="msg" style="max-width: 700px">
 
-	</div>
 </div>
 
 <script>
